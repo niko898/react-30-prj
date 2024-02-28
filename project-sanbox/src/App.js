@@ -9,6 +9,10 @@ import TemperatureControllerApp from './projects/06-temperature/TemperatureContr
 import DarkMode from './projects/07-darkmode/DarkMode';
 import SlideToUnlock from './projects/08-slide-to-unlock/SlideToUnlock';
 import SliderApp from './projects/09-slider/SliderApp';
+import HiddenSearchBarApp from './projects/10-hidden-search-bar/HiddenSearchBarApp';
+import PopupApp from './projects/11-MagicPopup/PopupApp';
+import ProgressBarsContainer from './projects/12-progress-bars/ProgressBarsContainer';
+import DialogBox from './projects/13-dialog-box/DialogBox';
 
 function App() {
   return (
@@ -21,7 +25,11 @@ function App() {
       {/* <TemperatureControllerApp /> */}
       {/* <DarkMode /> */}
       {/* <SlideToUnlock /> */}
-      <SliderApp />
+      {/* <SliderApp /> */}
+      {/* <HiddenSearchBarApp /> */}
+      {/* <PopupApp /> */}
+      {/* <ProgressBarsContainer /> */}
+      <DialogBox />
     </div>
   );
 }
