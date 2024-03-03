@@ -13,6 +13,8 @@ import HiddenSearchBarApp from './projects/10-hidden-search-bar/HiddenSearchBarA
 import PopupApp from './projects/11-MagicPopup/PopupApp';
 import ProgressBarsContainer from './projects/12-progress-bars/ProgressBarsContainer';
 import DialogBox from './projects/13-dialog-box/DialogBox';
+import FilterContactsApp from './projects/14-filter-contacts/FilterContactsApp';
+import RegForm from './projects/15-reg-form-validation/RegForm';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       {/* <HiddenSearchBarApp /> */}
       {/* <PopupApp /> */}
       {/* <ProgressBarsContainer /> */}
-      <DialogBox />
+      {/* <DialogBox /> */}
+      {/* <FilterContactsApp /> */}
+      <RegForm />
     </div>
   );
 }

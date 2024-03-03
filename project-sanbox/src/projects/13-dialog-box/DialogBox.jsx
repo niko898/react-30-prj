@@ -43,7 +43,7 @@ export default function DialogBox({width = 350}) {
             setIcon(<BsFillEmojiFrownFill style={iconStye} />);
             document.body.style.background = "rgba(25,118,160,0.4)";
         }
-
+        console.log(subscription.state)
             
     }, [subscription.state])
 
