@@ -22,6 +22,7 @@ import './App.css';
 // import SpacePenguinApp from './projects/20-space-penguin/SpacePenguinApp';
 // import TasksTrackerApp from './projects/21-tasks-tracker/TasksTrackerApp';
 import CardGameUi from './projects/22-card-game/CardGameUi';
+import AnimatedLoginForm from './projects/23-animated-login/AnimatedLoginForm';
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
       {/* <CompoundInterestRateApp /> */}
       {/* <SpacePenguinApp /> */}
       {/* <TasksTrackerApp /> */}
-      <CardGameUi />
+      {/* <CardGameUi /> */}
+      <AnimatedLoginForm />
     </div>
   );
 }
