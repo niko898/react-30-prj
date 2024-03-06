@@ -1,5 +1,6 @@
 
 import './App.css';
+import PhoneBookApp from './projects/24-phone-book/PhoneBookApp';
 // import EsignatureApp from './projects/01-e-signature-app/EsignatureApp';
 // import RandomizeColor from './projects/02-randomize-colors/RandomizeColor';
 // import LikePhotoApp from './projects/03-doggydog/LikePhotoApp';
@@ -21,8 +22,8 @@ import './App.css';
 // import CompoundInterestRateApp from './projects/19-compound-interest-rate-calc/CompoundInterestRateApp';
 // import SpacePenguinApp from './projects/20-space-penguin/SpacePenguinApp';
 // import TasksTrackerApp from './projects/21-tasks-tracker/TasksTrackerApp';
-import CardGameUi from './projects/22-card-game/CardGameUi';
-import AnimatedLoginForm from './projects/23-animated-login/AnimatedLoginForm';
+// import CardGameUi from './projects/22-card-game/CardGameUi';
+// import AnimatedLoginForm from './projects/23-animated-login/AnimatedLoginForm';
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
       {/* <SpacePenguinApp /> */}
       {/* <TasksTrackerApp /> */}
       {/* <CardGameUi /> */}
-      <AnimatedLoginForm />
+      {/* <AnimatedLoginForm /> */}
+      <PhoneBookApp />
     </div>
   );
 }
